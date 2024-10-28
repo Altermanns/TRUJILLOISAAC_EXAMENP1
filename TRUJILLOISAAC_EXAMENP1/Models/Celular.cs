@@ -13,8 +13,6 @@ namespace TRUJILLOISAAC_EXAMENP1.Models
         [Required]
         public int año { get; set; }
         public double precio { get; set; }
-        [ForeignKey("IdUsuario")]
-        public int IdUsusario { get; set; }
             
 
     }
