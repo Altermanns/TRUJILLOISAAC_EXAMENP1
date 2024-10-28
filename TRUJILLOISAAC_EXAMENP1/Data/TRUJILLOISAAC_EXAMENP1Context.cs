@@ -15,5 +15,6 @@ namespace TRUJILLOISAAC_EXAMENP1.Data
         }
 
         public DbSet<TRUJILLOISAAC_EXAMENP1.Models.ITrujillo> ITrujillo { get; set; } = default!;
+        public DbSet<TRUJILLOISAAC_EXAMENP1.Models.Celular> Celular { get; set; } = default!;
     }
 }
