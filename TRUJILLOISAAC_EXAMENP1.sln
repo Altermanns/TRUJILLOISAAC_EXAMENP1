@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRUJILLOISAAC_EXAMENP1", "TRUJILLOISAAC_EXAMENP1\TRUJILLOISAAC_EXAMENP1.csproj", "{D3FA19D2-C873-4380-AC97-1C1BF658E640}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3FA19D2-C873-4380-AC97-1C1BF658E640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3FA19D2-C873-4380-AC97-1C1BF658E640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3FA19D2-C873-4380-AC97-1C1BF658E640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3FA19D2-C873-4380-AC97-1C1BF658E640}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6009D25-C852-472D-802D-6323DB2E2F53}
+	EndGlobalSection
+EndGlobal
