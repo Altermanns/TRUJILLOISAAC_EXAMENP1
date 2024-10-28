@@ -6,6 +6,7 @@ namespace TRUJILLOISAAC_EXAMENP1.Models
     public class Celular
     {
         [Required]
+        [Key]
         public int Idceluar { get; set; }
         [Required]
         [StringLength(50, MinimumLength = 3)]
