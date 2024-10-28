@@ -5,7 +5,6 @@ namespace TRUJILLOISAAC_EXAMENP1.Models
     public class ITrujillo
     {
         [Required(ErrorMessage = "Complete este Campo")]
-        [Key]
         public int IdUsuario { get; set; }
         [Required]
         [StringLength(50)]
