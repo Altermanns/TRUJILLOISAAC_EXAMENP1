@@ -11,12 +11,11 @@ namespace TRUJILLOISAAC_EXAMENP1.Models
         [StringLength(50, MinimumLength = 3)]
         public string modelo { get; set; }
         [Required]
-
-        public DateOnly año { get; set; }
+        public int año { get; set; }
         public double precio { get; set; }
         [ForeignKey("IdUsuario")]
         public int IdUsusario { get; set; }
-
+            
 
     }
 }
