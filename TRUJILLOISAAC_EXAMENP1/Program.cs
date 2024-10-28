@@ -1,4 +1,9 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using TRUJILLOISAAC_EXAMENP1.Data;
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<TRUJILLOISAAC_EXAMENP1Context>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("TRUJILLOISAAC_EXAMENP1Context") ?? throw new InvalidOperationException("Connection string 'TRUJILLOISAAC_EXAMENP1Context' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
