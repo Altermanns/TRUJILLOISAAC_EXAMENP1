@@ -13,6 +13,7 @@ namespace TRUJILLOISAAC_EXAMENP1.Models
         [Required]
         public int año { get; set; }
         public double precio { get; set; }
+        
             
 
     }

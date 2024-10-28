@@ -1,10 +1,12 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace TRUJILLOISAAC_EXAMENP1.Models
 {
     public class ITrujillo
     {
         [Required(ErrorMessage = "Complete este Campo")]
+        [Key]
         public int IdUsuario { get; set; }
         [Required]
         [StringLength(50)]
@@ -15,6 +17,8 @@ namespace TRUJILLOISAAC_EXAMENP1.Models
         public double numfav { get; set; }
         [Required]
         public bool quierecambiar { get; set; }
+        [ForeignKey("Celular")]
+        public int Idceluar { get; set; }
 
     }
 }
